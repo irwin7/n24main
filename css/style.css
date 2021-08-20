@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.row{
+  display: flex;
+  flex-flow: row wrap;
+}
+.container{
+  width: 1200px;
+  padding: 0 30px;
+}
+body{
+  font-family: 'Rubik', sans-serif;
+  background-color: #fff;
+}
+.last-news-img{
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+.last-news-item{
+  margin-bottom: 18px;
+}
+h2{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.m-p-title{
+  color: #202020;
+  margin-bottom: 6px;
+}
+.most-popular{
+  background: #F6F6F9;
+  border-radius: 23px;
+}
+.div-most-popular{
+  box-sizing: border-box;
+  padding: 16px 0 0 20px;
+}
+.last-news-title{
+  color: #000000;
+  display: inline-flex;
+  margin-bottom: 15px;
+  width: 198px;
+}
+.last-n-h3{
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+.last-n-text{
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+}
+time{
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688A4;
+}
+.time-div::before{
+  content: "";
+  display: inline-block;
+  background-image: url('../img/clndr.svg');
+  width: 14px;
+  height: 17px;
+  align-items: center;
+  text-align: center;
+  margin-right: 3px;
+}
+.m-l-div{
+  width: 347px;
+  height: 110px;
+  border-bottom: 4px solid #E4E4E4;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.m-p-p{
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-bottom: 20px;
+}
